@@ -1,0 +1,21 @@
+categories:
+  Media:
+    Images:
+      extensions: [.jpg, .jpeg, .gif, .svg, .png]
+    Videos:
+      extensions: [.mp4, .mov, .mkv, .avi, .webm]
+    Audio:
+      extensions: [.mp3, .wav, .aac]
+  Documents:
+    PDF:
+      extensions: [.pdf, .epub]
+    Office:
+      extensions: [.doc, .docx, .xls, .xlsx, .csv, .ppt, .pptx]
+    Text:
+      extensions: [.txt, .md]
+  Archives:
+    extensions: [.zip, .iso, .7z, .rar, .tar, .gz]
+  Applications:
+    extensions: [.exe]
+fallback:
+  Others:
