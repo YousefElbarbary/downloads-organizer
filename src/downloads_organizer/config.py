@@ -24,4 +24,4 @@ def flatten_dict(d, items_dict, parent_key = '', ignore_keys = {'categories', "f
 def load_config():
      items_dict = dict()
      config = load_yaml()
-     print(flatten_dict(config, items_dict))
+     return(flatten_dict(config, items_dict))
