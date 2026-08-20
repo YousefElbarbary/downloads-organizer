@@ -7,6 +7,10 @@ name = "downloads-organizer"
 version = "0.1.0"
 description = "Automatically organizes files in a directory based on their file type."
 requires-python = ">=3.10"
+dependencies = [
+    "PyYAML>=6.0"
+]
+
 
 [tool.setup.package.find]
 where = ["src"]
